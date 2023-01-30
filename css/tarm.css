@@ -1,13 +1,27 @@
+
+
 body {
-    background-color: green;
+    background-color: rgb(0, 0, 0);
   }
   
+
+ 
+
   h1 {
     color: white;
     text-align: center;
-  }
+    @font-face { font-family: Friday13SH; src: url('Friday13SH'); } 
+   
+     :font-family: "<Friday13SH class="ttf"></Friday13SH>" }
+    
+  
   
   p {
-    font-family: verdana;
+    font-family: Friday13SH;
     font-size: 20px;
+    color:rgb(255, 255, 255)
+  }
+
+  body {
+    background-image: url("bein.png");
   }
