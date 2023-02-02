@@ -1,0 +1,21 @@
+:root {
+    color-scheme: dark;
+    --bg: #2b0446;
+    --accent-bg: #413725;
+    --text: #dcdcdc;
+    --text-light: #ababab;
+    --border: #000000;
+    --accent: #c09e48;
+    --code: #f06292;
+    --preformatted: #ccc;
+    --disabled: #111;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/HussarBoldWebEdition-xq5O.otf);
+}
+
+body {
+    font-family: myFirstFont;
+}
